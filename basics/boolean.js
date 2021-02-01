@@ -1,6 +1,11 @@
-let temp = 32;
-let isFreezing = temp <= 32;
-console.log(isFreezing);
+let temp = 180;
+
+if (temp <= 32) {
+  console.log("It's freezing");
+}
+if (temp >= 110) {
+  console.log("It's too hot");
+}
 
 // Create age variabl set to your age
 let age = 50;
